@@ -294,7 +294,7 @@ function render(c) {
     const ft = lc.footer || {};
     const waName = b.short_name || b.name || '';
     const waMsg = currentLang === 'en'
-        ? encodeURIComponent(`Hi ${waName}! I'd like to check availability for accommodation.`)
+        ? encodeURIComponent(`Hi ${waName}! I'd like to check availability at your hotel.`)
         : encodeURIComponent(`Hola ${waName}! Quería consultar disponibilidad para hospedarme.`);
     let waLink = '#';
     if (con.whatsapp) {
@@ -422,7 +422,7 @@ function render(c) {
 
     const exp = lc.experiences || {};
     el('exp-eyebrow').textContent = exp.eyebrow || 'Experiencias';
-    el('exp-title').textContent = exp.title || 'Conocé nuestro hostel';
+    el('exp-title').textContent = exp.title || 'Conocé nuestro hotel';
     let expHtml = '';
     (exp.videos || []).forEach(v => {
         expHtml += `<div class="exp-item reveal"><video src="${escapeHtml(v.src)}" poster="${escapeHtml(v.poster)}"></video></div>`;
@@ -456,7 +456,7 @@ function render(c) {
     }
 
     const faqItems = (lc.faq && lc.faq.length) ? lc.faq : [
-        { question: currentLang === 'en' ? 'Is there WiFi?' : '¿Hay WiFi?', answer: currentLang === 'en' ? 'Yes, free WiFi throughout the hostel.' : 'Sí, WiFi gratis en todo el hostel.' },
+        { question: currentLang === 'en' ? 'Is there WiFi?' : '¿Hay WiFi?', answer: currentLang === 'en' ? 'Yes, free WiFi throughout the hotel.' : 'Sí, WiFi gratis en todo el hotel.' },
         { question: currentLang === 'en' ? 'Is there air conditioning?' : '¿Hay aire acondicionado?', answer: currentLang === 'en' ? 'Yes, you\'ll be comfortable in any season.' : 'Sí, en verano estás fresquito sin problema.' },
         { question: currentLang === 'en' ? 'How do I book?' : '¿Cómo reservo?', answer: currentLang === 'en' ? 'Message us on WhatsApp and we\'ll confirm right away.' : 'Escribinos por WhatsApp y te confirmamos al toque.' },
         { question: currentLang === 'en' ? 'What\'s included in the price?' : '¿Qué incluye el precio?', answer: currentLang === 'en' ? 'WiFi, towels, and bed linens.' : 'WiFi, toallas y ropa de cama.' }

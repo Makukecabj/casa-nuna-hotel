@@ -2,9 +2,9 @@
   "business": {
     "name": "Casa NUNA hotel",
     "short_name": "Casa NUNA hotel",
-    "tagline": "Casa NUNA hotel | Alojamiento en Tilcara, Jujuy",
+    "tagline": "Casa NUNA hotel | Hotel en Tilcara, Jujuy",
     "description": "Casa NUNA hotel: Refugio acogedor con habitaciones privadas en Tilcara, Jujuy. Disfrutá de nuestra terraza con hamacas y vistas únicas a las montañas. Reservas directas sin comisiones.",
-    "category": "Hostel en Tilcara",
+    "category": "Hotel en Tilcara",
     "followers": 0
   },
   "hero": {
@@ -113,11 +113,11 @@
     "images": [
       {
         "src": "fotos/foto-01.jpg",
-        "alt": "Vista del alojamiento"
+        "alt": "Vista del hotel"
       },
       {
         "src": "fotos/foto-02.jpg",
-        "alt": "Interior del hostel"
+        "alt": "Interior del hotel"
       },
       {
         "src": "fotos/foto-03.png",
@@ -133,14 +133,14 @@
       },
       {
         "src": "fotos/foto-06.png",
-        "alt": "Cocina del hostel"
+        "alt": "Cocina del hotel"
       }
     ],
     "videos": []
   },
   "experiences": {
     "eyebrow": "Experiencias",
-    "title": "Conocé nuestro hostel",
+    "title": "Conocé nuestro hotel",
     "videos": [
       { "src": "videos/video-01.mp4", "poster": "fotos/foto-07.jpg" },
       { "src": "videos/video-02.mp4", "poster": "fotos/foto-08.jpg" }
@@ -189,9 +189,9 @@
       "business": {
         "name": "Casa NUNA hotel",
         "short_name": "Casa NUNA hotel",
-        "tagline": "Casa NUNA hotel - Accommodation",
+        "tagline": "Casa NUNA hotel - Hotel",
         "description": "Casa NUNA hotel: A cozy hotel with private rooms in Tilcara, Jujuy. Enjoy our terrace with hammocks and unique mountain views. Direct bookings, no commissions.",
-        "category": "Accommodation"
+        "category": "Hotel"
       },
       "hero": {
         "video": "videos/home.mp4",
@@ -200,7 +200,7 @@
         "title_line1": "Explore",
         "title_em": "Casa NUNA hotel",
         "title_line2": "from here",
-        "subtitle": "Comfortable accommodation in Tilcara, Jujuy for travelers like you."
+        "subtitle": "Comfortable hotel in Tilcara, Jujuy for travelers like you."
       },
       "about": {
         "eyebrow": "The people behind this",
@@ -211,7 +211,7 @@
         "photos": [
           {
             "src": "fotos/foto-01.jpg",
-            "alt": "Interior del hostel"
+"alt": "Interior del hotel"
           },
           {
             "src": "fotos/foto-02.jpg",
@@ -230,7 +230,7 @@
           },
           {
             "src": "fotos/foto-02.jpg",
-            "alt": "Inside the hostel"
+            "alt": "Inside the hotel"
           },
           {
             "src": "fotos/foto-03.png",
@@ -246,7 +246,7 @@
           },
           {
             "src": "fotos/foto-06.png",
-            "alt": "Hostel kitchen"
+            "alt": "Hotel kitchen"
           }
         ]
       },
@@ -336,7 +336,7 @@
       {
         "@type": "Hotel",
         "name": "Casa NUNA hotel",
-        "description": "Un hostel con onda en Tilcara, Jujuy. Conocé Casa NUNA hotel.",
+        "description": "Un hotel con onda en Tilcara, Jujuy. Conocé Casa NUNA hotel.",
         "url": "https://casa-nuna-hotel.vercel.app/",
         "telephone": "+5493884681921",
         "email": "",
