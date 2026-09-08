@@ -414,7 +414,7 @@ function render(c) {
     let galleryHtml = '';
     lbItems = [];
     (g.images || []).forEach(img => {
-        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="" loading="lazy"></div>`;
+        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="${escapeHtml(img.alt || '')}" loading="lazy"></div>`;
         lbItems.push({ type: 'image', src: img.src, alt: '' });
     });
     // Videos removed from gallery - hero section uses the video background
@@ -429,7 +429,7 @@ function render(c) {
         lbItems.push({ type: 'video', src: v.src, alt: '' });
     });
     (exp.photos || []).forEach(p => {
-        expHtml += `<div class="exp-item reveal"><img src="${escapeHtml(p.src)}" alt="" loading="lazy"></div>`;
+        expHtml += `<div class="exp-item reveal"><img src="${escapeHtml(p.src)}" alt="${escapeHtml(p.alt || 'Casa NUNA hotel Tilcara')}" loading="lazy"></div>`;
         lbItems.push({ type: 'image', src: p.src, alt: '' });
     });
     el('exp-grid').innerHTML = expHtml;
