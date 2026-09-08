@@ -163,10 +163,6 @@
       "answer": "En los espacios al aire libre, sí. Adentro no."
     },
     {
-      "question": "¿Tienen estacionamiento?",
-      "answer": "Sí, tenemos lugar para estacionar sin cargo."
-    },
-    {
       "question": "¿Cómo reservo?",
       "answer": "Mandanos un WhatsApp o un mail y te confirmamos al toque. Sin vueltas."
     },
@@ -262,10 +258,6 @@
         "cta_text": "Check prices"
       },
       "faq": [
-        {
-          "question": "Is there parking?",
-          "answer": "Yes, we have free parking on the property."
-        },
         {
           "question": "What time can I check in and out?",
           "answer": "We're flexible with times. Drop us a message and we'll work it out."
@@ -390,14 +382,6 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "En los espacios al aire libre, sí. Adentro no."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Tienen estacionamiento?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sí, tenemos lugar para estacionar sin cargo."
             }
           },
           {

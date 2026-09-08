@@ -79,7 +79,7 @@ const I18N = {
         step1_title: "Escribinos",
         step1_text: "Mandanos un WhatsApp con tus fechas y cuántos son.",
         step2_title: "Te confirmamos",
-        step2_text: "Te respondemos al toque con disponibilidad y precio real.",
+        step2_text: "Te respondemos a la brevedad tus dudas.",
         step3_title: "Empaquetá y vení",
         step3_text: "Sin comisiones ni intermediarios. Directo con nosotros.",
         loc_reviews_btn: "Ver reseñas en Google",
@@ -457,7 +457,6 @@ function render(c) {
 
     const faqItems = (lc.faq && lc.faq.length) ? lc.faq : [
         { question: currentLang === 'en' ? 'Is there WiFi?' : '¿Hay WiFi?', answer: currentLang === 'en' ? 'Yes, free WiFi throughout the hostel.' : 'Sí, WiFi gratis en todo el hostel.' },
-        { question: currentLang === 'en' ? 'Is there parking?' : '¿Tienen estacionamiento?', answer: currentLang === 'en' ? 'Yes, free parking on-site.' : 'Sí, estacionamiento gratuito en el lugar.' },
         { question: currentLang === 'en' ? 'Is there air conditioning?' : '¿Hay aire acondicionado?', answer: currentLang === 'en' ? 'Yes, you\'ll be comfortable in any season.' : 'Sí, en verano estás fresquito sin problema.' },
         { question: currentLang === 'en' ? 'How do I book?' : '¿Cómo reservo?', answer: currentLang === 'en' ? 'Message us on WhatsApp and we\'ll confirm right away.' : 'Escribinos por WhatsApp y te confirmamos al toque.' },
         { question: currentLang === 'en' ? 'What\'s included in the price?' : '¿Qué incluye el precio?', answer: currentLang === 'en' ? 'WiFi, towels, and bed linens.' : 'WiFi, toallas y ropa de cama.' }
