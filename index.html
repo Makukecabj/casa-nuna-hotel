@@ -494,6 +494,12 @@
       z-index: 0;
       background: var(--pine-dark);
     }
+    @media (min-width: 1024px) {
+        .hero-video {
+            width: 80%;
+            left: 10%;
+        }
+    }
 
     .hero.no-video::before {
       content: '';
@@ -853,17 +859,18 @@
     }
     .exp-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr;
       gap: 22px;
     }
     .exp-item {
       border-radius: var(--radius);
       overflow: hidden;
       box-shadow: var(--shadow);
+      cursor: pointer;
     }
     .exp-item video, .exp-item img {
       width: 100%;
-      height: 300px;
+      height: 400px;
       object-fit: cover;
       display: block;
     }
@@ -2099,7 +2106,6 @@
     </a>
   </div>
 
-  <script src="config-data.js"></script>
   <script src="js/main.js"></script>
 </body>
 

@@ -425,10 +425,12 @@ function render(c) {
     el('exp-title').textContent = exp.title || 'Conocé nuestro hostel';
     let expHtml = '';
     (exp.videos || []).forEach(v => {
-        expHtml += `<div class="exp-item reveal"><video src="${escapeHtml(v.src)}" controls></video></div>`;
+        expHtml += `<div class="exp-item reveal"><video src="${escapeHtml(v.src)}" poster="${escapeHtml(v.poster)}"></video></div>`;
+        lbItems.push({ type: 'video', src: v.src, alt: '' });
     });
     (exp.photos || []).forEach(p => {
         expHtml += `<div class="exp-item reveal"><img src="${escapeHtml(p.src)}" alt="" loading="lazy"></div>`;
+        lbItems.push({ type: 'image', src: p.src, alt: '' });
     });
     el('exp-grid').innerHTML = expHtml;
 
@@ -436,6 +438,9 @@ function render(c) {
         document.querySelectorAll('.gallery-item').forEach((item, i) => {
             item.style.cursor = 'pointer';
             item.addEventListener('click', () => openLightbox(i));
+        });
+        document.querySelectorAll('.exp-item').forEach((item, i) => {
+            item.addEventListener('click', () => openLightbox(g.images.length + i));
         });
     }, 100);
 

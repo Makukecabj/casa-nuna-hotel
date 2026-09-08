@@ -142,8 +142,8 @@
     "eyebrow": "Experiencias",
     "title": "Conocé nuestro hostel",
     "videos": [
-      { "src": "videos/video-01.mp4" },
-      { "src": "videos/video-02.mp4" }
+      { "src": "videos/video-01.mp4", "poster": "fotos/foto-07.jpg" },
+      { "src": "videos/video-02.mp4", "poster": "fotos/foto-08.jpg" }
     ],
     "photos": [
       { "src": "fotos/foto-07.jpg" },
