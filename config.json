@@ -134,6 +134,18 @@
       {
         "src": "fotos/foto-06.png",
         "alt": "Cocina del hotel"
+      },
+      {
+        "src": "fotos/foto-09.jpg",
+        "alt": "Casa NUNA hotel en Tilcara"
+      },
+      {
+        "src": "fotos/foto-10.jpg",
+        "alt": "Casa NUNA hotel en Tilcara"
+      },
+      {
+        "src": "fotos/foto-11.jpg",
+        "alt": "Casa NUNA hotel en Tilcara"
       }
     ],
     "videos": []
@@ -244,9 +256,21 @@
             "src": "fotos/foto-05.png",
             "alt": "Pool and garden"
           },
-          {
+{
             "src": "fotos/foto-06.png",
-            "alt": "Hotel kitchen"
+            "alt": "Hostel kitchen"
+          },
+          {
+            "src": "fotos/foto-09.jpg",
+            "alt": "Casa NUNA hotel in Tilcara"
+          },
+          {
+            "src": "fotos/foto-10.jpg",
+            "alt": "Casa NUNA hotel in Tilcara"
+          },
+          {
+            "src": "fotos/foto-11.jpg",
+            "alt": "Casa NUNA hotel in Tilcara"
           }
         ]
       },
