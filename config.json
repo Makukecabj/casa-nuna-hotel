@@ -10,11 +10,11 @@
   "hero": {
     "video": "videos/home.mp4",
     "poster": "fotos/foto-01.jpg",
-    "eyebrow": "San Salvador de Jujuy · Avenida Benjamin Villafañe 303",
+    "eyebrow": "Tilcara, Jujuy · Avenida Benjamin Villafañe 303",
     "title_line1": "Conocé todo desde",
     "title_em": "Casa NUNA hotel",
     "title_line2": "",
-    "subtitle": "Habitaciones privadas y compartidas en San Salvador de Jujuy."
+    "subtitle": "Habitaciones privadas en Tilcara, Jujuy."
   },
   "location": {
     "address": "Avenida Benjamin Villafañe 303, Y4624 Tilcara, Jujuy, Argentina",
@@ -198,13 +198,13 @@
         "category": "Accommodation"
       },
       "hero": {
-        "video": "videos/city-video.mp4",
-        "poster": "fotos/foto-01.webp",
-        "eyebrow": "San Salvador de Jujuy · Avenida Benjamin Villafañe 303",
+        "video": "videos/home.mp4",
+        "poster": "fotos/foto-01.jpg",
+        "eyebrow": "Tilcara, Jujuy · Avenida Benjamin Villafañe 303",
         "title_line1": "Explore",
         "title_em": "Casa NUNA hotel",
         "title_line2": "from here",
-        "subtitle": "Comfortable accommodation in San Salvador de Jujuy for travelers like you."
+        "subtitle": "Comfortable accommodation in Tilcara, Jujuy for travelers like you."
       },
       "about": {
         "eyebrow": "The people behind this",
@@ -344,7 +344,7 @@
       {
         "@type": "Hotel",
         "name": "Casa NUNA hotel",
-        "description": "Un hostel con onda en San Salvador de Jujuy. Conocé Casa NUNA hotel.",
+        "description": "Un hostel con onda en Tilcara, Jujuy. Conocé Casa NUNA hotel.",
         "url": "",
         "telephone": "+5493884681921",
         "email": "",
