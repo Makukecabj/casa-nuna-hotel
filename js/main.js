@@ -80,7 +80,7 @@ const I18N = {
         step1_text: "Mandanos un WhatsApp con tus fechas y cuántos son.",
         step2_title: "Te confirmamos",
         step2_text: "Te respondemos a la brevedad tus dudas.",
-        step3_title: "Empaquetá y vení",
+        step3_title: "Y te esperamos en casa",
         step3_text: "Sin comisiones ni intermediarios. Directo con nosotros.",
         loc_reviews_btn: "Ver reseñas en Google",
         tst_eyebrow: "Testimonios",
