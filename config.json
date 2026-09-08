@@ -179,20 +179,20 @@
       "answer": "Sí, tenemos lugar para estacionar sin cargo."
     },
     {
-      "question": "¿Cuánto queda para la playa/centro?",
-      "answer": "A pocas cuadras, caminando llegás en 5 minutos."
-    },
-    {
       "question": "¿Cómo reservo?",
       "answer": "Mandanos un WhatsApp o un mail y te confirmamos al toque. Sin vueltas."
     },
     {
-      "question": "¿Está cerca del mar?",
-      "answer": "Escribinos y te contamos exactamente cuánto hay hasta la playa desde acá."
+      "question": "¿Hay calefacción?",
+      "answer": "Sí, en invierno estamos bien abrigaditos. No te preocupes por el frío."
     },
     {
-      "question": "¿Qué se puede hacer en la zona?",
-      "answer": "La zona es ideal para playa, paseos costeros y buena comida. Te recomendamos los mejores lugares."
+      "question": "¿Se puede hacer trekking cerca?",
+      "answer": "La zona es conocida por sus cerros y senderos. Escribinos y te recomendamos los mejores circuitos."
+    },
+    {
+      "question": "¿Cómo es el clima? ¿Hay que abrigarse mucho?",
+      "answer": "En la montaña las noches suelen ser frescas incluso en verano. Consultanos y te contamos qué llevar."
     }
   ],
   "footer": {
@@ -391,7 +391,7 @@
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Avenida Benjamin Villafañe 303, Y4624 Tilcara, Jujuy, Argentina",
-          "addressLocality": "San Salvador de Jujuy",
+          "addressLocality": "Tilcara",
           "addressCountry": "AR"
         },
         "amenityFeature": [
@@ -438,14 +438,6 @@
           },
           {
             "@type": "Question",
-            "name": "¿Cuánto queda para la playa/centro?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A pocas cuadras, caminando llegás en 5 minutos."
-            }
-          },
-          {
-            "@type": "Question",
             "name": "¿Cómo reservo?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -454,18 +446,26 @@
           },
           {
             "@type": "Question",
-            "name": "¿Está cerca del mar?",
+            "name": "¿Hay calefacción?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Escribinos y te contamos exactamente cuánto hay hasta la playa desde acá."
+              "text": "Sí, en invierno estamos bien abrigaditos. No te preocupes por el frío."
             }
           },
           {
             "@type": "Question",
-            "name": "¿Qué se puede hacer en la zona?",
+            "name": "¿Se puede hacer trekking cerca?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "La zona es ideal para playa, paseos costeros y buena comida. Te recomendamos los mejores lugares."
+              "text": "La zona es conocida por sus cerros y senderos. Escribinos y te recomendamos los mejores circuitos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo es el clima? ¿Hay que abrigarse mucho?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "En la montaña las noches suelen ser frescas incluso en verano. Consultanos y te contamos qué llevar."
             }
           }
         ]
