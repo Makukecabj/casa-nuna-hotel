@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://casa-nuna-hotel.vercel.app/sitemap.xml
