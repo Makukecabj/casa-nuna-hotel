@@ -414,11 +414,23 @@ function render(c) {
     let galleryHtml = '';
     lbItems = [];
     (g.images || []).forEach(img => {
-        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="${escapeHtml(img.alt || '')}" loading="lazy"><div class="gallery-overlay"><span>${escapeHtml(img.alt || '')}</span></div></div>`;
-        lbItems.push({ type: 'image', src: img.src, alt: img.alt || '' });
+        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="" loading="lazy"></div>`;
+        lbItems.push({ type: 'image', src: img.src, alt: '' });
     });
     // Videos removed from gallery - hero section uses the video background
     el('gallery-grid').innerHTML = galleryHtml;
+
+    const exp = lc.experiences || {};
+    el('exp-eyebrow').textContent = exp.eyebrow || 'Experiencias';
+    el('exp-title').textContent = exp.title || 'Conocé nuestro hostel';
+    let expHtml = '';
+    (exp.videos || []).forEach(v => {
+        expHtml += `<div class="exp-item reveal"><video src="${escapeHtml(v.src)}" controls></video></div>`;
+    });
+    (exp.photos || []).forEach(p => {
+        expHtml += `<div class="exp-item reveal"><img src="${escapeHtml(p.src)}" alt="" loading="lazy"></div>`;
+    });
+    el('exp-grid').innerHTML = expHtml;
 
     setTimeout(() => {
         document.querySelectorAll('.gallery-item').forEach((item, i) => {

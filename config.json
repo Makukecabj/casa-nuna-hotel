@@ -138,6 +138,18 @@
     ],
     "videos": []
   },
+  "experiences": {
+    "eyebrow": "Experiencias",
+    "title": "Conocé nuestro hostel",
+    "videos": [
+      { "src": "videos/video-01.mp4" },
+      { "src": "videos/video-02.mp4" }
+    ],
+    "photos": [
+      { "src": "fotos/foto-07.jpg" },
+      { "src": "fotos/foto-08.jpg" }
+    ]
+  },
   "pricing": {
     "eyebrow": "Precios",
     "amount": "Consultar",
