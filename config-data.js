@@ -2,8 +2,8 @@ window.__CONFIG = {
   "business": {
     "name": "Casa NUNA hotel",
     "short_name": "Casa NUNA hotel",
-    "tagline": "Casa NUNA hotel - San Salvador de Jujuy",
-    "description": "Casa NUNA hotel, tu alojamiento ideal en San Salvador de Jujuy.",
+    "tagline": "Casa NUNA hotel | Alojamiento en Tilcara, Jujuy",
+    "description": "Casa NUNA hotel: Refugio acogedor con habitaciones privadas en Tilcara, Jujuy. Disfrutá de nuestra terraza con hamacas y vistas únicas a las montañas. Reservas directas sin comisiones.",
     "category": "Hospedaje",
     "followers": 0
   },
@@ -18,13 +18,13 @@ window.__CONFIG = {
   },
   "location": {
     "address": "Avenida Benjamin Villafañe 303, Y4624 Tilcara, Jujuy, Argentina",
-    "district": "San Salvador de Jujuy",
-    "city": "San Salvador de Jujuy",
+    "district": "Tilcara",
+    "city": "Tilcara",
     "province": "",
     "country": "Argentina",
-    "destination_type": "beach",
-    "map_query": "Avenida Benjamin Villafañe 303, Y4624 Tilcara, Jujuy, Argentina, San Salvador de Jujuy",
-    "map_embed": "https://maps.google.com/maps?q=Avenida+Benjamin+Villafa%C3%B1e+303%2C+Y4624+Tilcara%2C+Jujuy%2C+Argentina%2C+San+Salvador+de+Jujuy&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    "destination_type": "mountain",
+    "map_query": "Casa NUNA hotel, Tilcara, Jujuy",
+    "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.5601550993086!2d-65.3994407!3d-23.5756997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9404cb927071ead9%3A0x2b167382e5287509!2sCasa+NUNA+hotel!5e0!3m2!1ses-419!2sar!4v1725790000000!5m2!1ses-419!2sar",
     "description": "San Salvador de Jujuy. Bien ubicado para recorrer la zona.",
     "video": "videos/city-video.mp4"
   },
@@ -41,15 +41,15 @@ window.__CONFIG = {
     "tiktok": ""
   },
   "about": {
-    "eyebrow": "Nuestra historia",
-    "title": "Casa NUNA hotel, tu base en San Salvador de Jujuy.",
+    "eyebrow": "Nuestra esencia",
+    "title": "Casa NUNA hotel, tu refugio en Tilcara.",
     "paragraphs": [
-      "Somos un hostel chico en San Salvador de Jujuy con mucho corazón. En Casa NUNA hotel vas a encontrar pileta, parrilla, cocina, WiFi y la mejor onda para que tu viaje sea inolvidable."
+      "Bienvenidos a Casa NUNA hotel, tu lugar en Tilcara. Somos un hospedaje acogedor donde priorizamos el descanso y la conexión con el entorno. Contamos con habitaciones privadas, una zona de estar compartida, desayunador y un patio equipado con hamacas y mesitas ideales para relajarse contemplando la vista panorámica de las montañas."
     ],
     "photos": [
       {
         "src": "fotos/foto-02.webp",
-        "alt": "Interior del hostel"
+        "alt": "Habitacion privada"
       },
       {
         "src": "fotos/foto-03.webp",
@@ -65,21 +65,21 @@ window.__CONFIG = {
   "amenities": [
     {
       "key": "bed",
-      "title": "Espacios para descansar",
-      "description": "Habitaciones pensadas para que descargues baterías.",
+      "title": "Habitaciones privadas",
+      "description": "Espacios confortables para tu descanso en Tilcara.",
       "icon": "bed"
     },
     {
       "key": "wifi",
-      "title": "Conection estable",
-      "description": "WiFi que funciona para laburar y para scrollear.",
+      "title": "WiFi estable",
+      "description": "Conectividad para que estés siempre comunicado.",
       "icon": "wifi"
     },
     {
-      "key": "pin",
-      "title": "En la zona",
-      "description": "Caminando llegás a todo, olvidate del Uber.",
-      "icon": "pin"
+      "key": "mountain",
+      "title": "Vistas a la montaña",
+      "description": "Patio con hamacas y mesitas para disfrutar el paisaje.",
+      "icon": "mountain"
     }
   ],
   "testimonials": [
@@ -189,6 +189,10 @@ window.__CONFIG = {
     {
       "question": "¿Está cerca del mar?",
       "answer": "Escribinos y te contamos exactamente cuánto hay hasta la playa desde acá."
+    },
+    {
+      "question": "¿Qué se puede hacer en la zona?",
+      "answer": "La zona es ideal para playa, paseos costeros y buena comida. Te recomendamos los mejores lugares."
     }
   ],
   "footer": {
@@ -313,6 +317,10 @@ window.__CONFIG = {
         {
           "question": "Is it close to the beach?",
           "answer": "Message us and we'll tell you exactly how far the beach is from here."
+        },
+        {
+          "question": "What is there to do in the area?",
+          "answer": "The area is great for the beach, seaside walks and good food. We'll share our favorite spots."
         }
       ],
       "trust_bar": [
@@ -389,17 +397,17 @@ window.__CONFIG = {
         "amenityFeature": [
           {
             "@type": "LocationFeatureSpecification",
-            "name": "Espacios para descansar",
+            "name": "Habitaciones privadas",
             "value": true
           },
           {
             "@type": "LocationFeatureSpecification",
-            "name": "Conection estable",
+            "name": "WiFi estable",
             "value": true
           },
           {
             "@type": "LocationFeatureSpecification",
-            "name": "En la zona",
+            "name": "Vistas a la montaña",
             "value": true
           }
         ],
@@ -450,6 +458,14 @@ window.__CONFIG = {
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Escribinos y te contamos exactamente cuánto hay hasta la playa desde acá."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué se puede hacer en la zona?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La zona es ideal para playa, paseos costeros y buena comida. Te recomendamos los mejores lugares."
             }
           }
         ]
