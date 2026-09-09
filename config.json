@@ -112,14 +112,6 @@
   "gallery": {
     "images": [
       {
-        "src": "fotos/foto-01.jpg",
-        "alt": "Vista del hotel"
-      },
-      {
-        "src": "fotos/foto-02.jpg",
-        "alt": "Interior del hotel"
-      },
-      {
         "src": "fotos/foto-03.png",
         "alt": "Espacios comunes"
       },
@@ -236,14 +228,6 @@
       },
       "gallery": {
         "images": [
-          {
-            "src": "fotos/foto-01.jpg",
-            "alt": "View of the property"
-          },
-          {
-            "src": "fotos/foto-02.jpg",
-            "alt": "Inside the hotel"
-          },
           {
             "src": "fotos/foto-03.png",
             "alt": "Common areas"
